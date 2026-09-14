@@ -1,13 +1,17 @@
 @import 'tailwindcss';
 
 @theme inline {
-  --color-brand-yellow: #F2B13E;
-  --color-brand-charcoal: #403F43;
-  --color-brand-cream: #FFF9EE;
+  --color-brand-yellow: #f2b13e;
+  --color-brand-charcoal: #403f43;
+  --color-brand-cream: #fff9ee;
 }
 
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   background: #ffffff;
@@ -15,5 +19,10 @@ body {
   font-family: Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', Arial, sans-serif;
   word-break: keep-all;
 }
-a { text-underline-offset: 0.2em; }
-:focus-visible { outline: 3px solid #f2b13e; outline-offset: 3px; }
+a {
+  text-underline-offset: 0.2em;
+}
+:focus-visible {
+  outline: 3px solid #f2b13e;
+  outline-offset: 3px;
+}

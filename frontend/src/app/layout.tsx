@@ -10,11 +10,25 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: { default: '여온앤컴퍼니', template: '%s | 여온앤컴퍼니' },
   description: siteConfig.description,
-  openGraph: { title: '여온앤컴퍼니', description: siteConfig.description, siteName: '여온앤컴퍼니', locale: 'ko_KR', type: 'website' },
+  openGraph: {
+    title: '여온앤컴퍼니',
+    description: siteConfig.description,
+    siteName: '여온앤컴퍼니',
+    locale: 'ko_KR',
+    type: 'website',
+  },
 };
 
 export const viewport: Viewport = { themeColor: '#F2B13E' };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="ko"><body><SiteHeader /><main>{children}</main><SiteFooter /></body></html>;
+  return (
+    <html lang="ko">
+      <body>
+        <SiteHeader />
+        <main>{children}</main>
+        <SiteFooter />
+      </body>
+    </html>
+  );
 }
