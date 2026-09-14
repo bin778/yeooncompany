@@ -1,0 +1,21 @@
+---
+description: Core context, content accuracy, and safe tool usage for the Yeoon & Company website
+alwaysApply: true
+---
+
+# Yeoon & Company Website
+
+- This repository contains the corporate website for Yeoon & Company.
+- The current product is a static company website built with Next.js and deployed through AWS Amplify.
+- Explain work to the user in Korean. Keep source code, identifiers, commit messages, and developer documentation in English unless the user requests otherwise.
+- Do not invent company history, customers, partnerships, product capabilities, launch dates, legal compliance, financial compliance, certifications, contact details, or performance claims.
+- Clearly label planned products and unverified features as planned, in development, or under validation.
+- Keep Yeoon & Company distinct from Yeoon Law Firm in branding, content, navigation, and contact flows.
+- Never expose or commit credentials, private keys, AWS access keys, production environment values, or personal data.
+- Preserve existing user changes. Before deleting files, changing dependencies, or changing deployment configuration, explain the target and expected impact.
+
+## Browser and CDP Boundary
+
+- Do not launch, control, inspect, or automate a browser unless the user explicitly requests browser-based work.
+- Do not use Chrome DevTools Protocol (CDP), Chrome DevTools, Browser Automation, Playwright, Puppeteer, or browser MCP tools without explicit user approval in the current request.
+- Do not start a local development server or perform browser-based visual verification unless explicitly requested.

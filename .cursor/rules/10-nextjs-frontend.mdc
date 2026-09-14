@@ -1,0 +1,19 @@
+---
+description: Next.js App Router and TypeScript conventions for the frontend
+globs: frontend/src/**/*.ts, frontend/src/**/*.tsx
+alwaysApply: false
+---
+
+# Frontend Conventions
+
+- Use Next.js App Router and TypeScript.
+- Prefer Server Components. Add `"use client"` only when browser APIs, React state, effects, or event handlers are required.
+- Keep reusable UI components in `frontend/src/app/components/`.
+- Keep shared site constants, navigation data, and reusable content definitions in `frontend/src/app/lib/`.
+- Keep page-specific content in the relevant route `page.tsx`.
+- Reuse existing components and design tokens before adding parallel components or one-off styles.
+- Use semantic HTML elements and native `button` or `a` elements for interactive controls.
+- Use `next/link` for internal navigation.
+- Use `next/image` for content images when an image is added, with meaningful `alt` text and an appropriate `sizes` value.
+- Do not introduce server-only features that conflict with static export without confirming the deployment impact first.
+- Do not refactor unrelated files, reorder imports, or reformat surrounding code solely for style consistency.

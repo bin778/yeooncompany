@@ -1,0 +1,17 @@
+---
+description: Brand, public-content accuracy, responsive UI, and accessibility standards
+globs: frontend/src/**/*.tsx, frontend/src/**/*.css
+alwaysApply: false
+---
+
+# Content, UI, and Accessibility
+
+- Use the established brand palette: Yellow `#F2B13E`, Charcoal `#403F43`, White `#FFFFFF`, and restrained warm neutral surfaces.
+- Do not use white body text on the yellow brand background. Use Charcoal or another color with sufficient contrast.
+- Maintain visible keyboard focus and ensure navigation, controls, and forms work with a keyboard.
+- Provide text alternatives for meaningful images. Mark purely decorative images with an empty `alt` attribute.
+- Respect `prefers-reduced-motion` and avoid non-essential or continuous animation.
+- Design responsively without horizontal scrolling at common mobile widths.
+- Do not use color as the only way to communicate status, meaning, or an interactive state.
+- Describe `CommonDay` and the planned consumer and asset-protection platform accurately. Do not imply that a planned service is already available.
+- For external news articles, use an original summary and the source link. Do not copy article text or publication images without permission.

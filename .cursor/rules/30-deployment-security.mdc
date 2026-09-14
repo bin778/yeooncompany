@@ -1,0 +1,15 @@
+---
+description: Static deployment, environment variable, dependency, and AWS configuration safeguards
+globs: frontend/next.config.*, frontend/package.json, frontend/package-lock.json, frontend/.env*, amplify.yml, infrastructure/**
+alwaysApply: false
+---
+
+# Deployment and Security
+
+- The default deployment architecture is a static Next.js export on AWS Amplify.
+- The frontend app root is `frontend/`; the static build output is `frontend/out/`.
+- Keep generated directories such as `frontend/.next/`, `frontend/out/`, and `frontend/node_modules/` out of version control.
+- Never commit `.env` files, AWS credentials, private keys, certificates, tokens, or production secrets.
+- Keep `frontend/.env.example` limited to variable names and safe placeholder values.
+- Before changing dependencies, lockfiles, Next.js configuration, or AWS/Amplify configuration, state the reason, affected files, and deployment impact.
+- Do not add API routes, Server Actions, authentication, databases, ISR, or other server-dependent features without confirming that the static deployment architecture will change.
