@@ -15,18 +15,14 @@ export default function HomePage() {
           <div className="pb-2">
             <p className="text-sm md:text-base font-bold tracking-[0.16em] text-[#403F43]/70">YEOON & COMPANY</p>
             <h1 className="mt-6 max-w-4xl text-5xl font-extrabold leading-[1.08] tracking-[-0.075em] text-[#403F43] md:text-6xl lg:text-7xl">
-              스스로 선택하고
+              스스로 선택하는
               <br />
-              살아가는 보통의&nbsp;
-              <br className="md:hidden" />
-              하루를&nbsp;
-              <br className="hidden md:block" />
-              만듭니다
+              하루가 되도록
             </h1>
             <p className="mt-8 max-w-xl text-base leading-8 text-[#403F43]/85 md:text-lg">
-              여온앤컴퍼니는 발달장애인의 일상 루틴과
+              여온앤컴퍼니는 누구나 안전한 일상을 만들고,
               <br />
-              안전한 소비를 지원하는 서비스를 만듭니다.
+              스스로 선택할 수 있도록 돕는 기술을 만듭니다.
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <Link
@@ -72,8 +68,7 @@ export default function HomePage() {
             <div>
               <p className="text-sm md:text-base font-bold tracking-[0.16em] text-[#B87810]">SOLUTIONS</p>
               <h2 className="mt-4 text-3xl font-extrabold tracking-[-0.06em] text-[#403F43] sm:text-4xl">
-                자립생활을 위한&nbsp;
-                <br className="md:hidden" />두 가지 기술
+                자립을 위한 두 가지 기술
               </h2>
             </div>
             <Link

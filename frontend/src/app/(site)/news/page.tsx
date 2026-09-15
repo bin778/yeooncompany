@@ -26,7 +26,13 @@ export default function NewsPage() {
       <PageIntro
         eyebrow="NEWS"
         title="함께 만든 변화의 기록"
-        description="협약, 운영 현장, 제품 소식을 통해 여온앤컴퍼니가 만들어 가는 과정을 전합니다."
+        description={
+          <>
+            협약, 운영 현장, 제품 소식을 통해&nbsp;
+            <br className="md:hidden" />
+            여온앤컴퍼니가 만들어 가는 과정을 전합니다.
+          </>
+        }
       />
       <section className="mx-auto max-w-5xl px-5 py-20 lg:px-8">
         <div className="grid gap-4">
@@ -46,9 +52,6 @@ export default function NewsPage() {
             </a>
           ))}
         </div>
-        <p className="mt-8 text-sm leading-6 text-[#777579]">
-          기사 본문과 이미지는 복제하지 않고, 사용 권한을 확보한 자체 사진·요약문으로 별도 게시합니다.
-        </p>
       </section>
     </>
   );
