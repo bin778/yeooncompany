@@ -24,7 +24,7 @@ export default function ContactPage() {
         }
       />
       <section className="mx-auto max-w-5xl px-5 py-20 lg:px-8">
-        <div className="rounded-3xl bg-[#F2B13E] p-8 sm:p-10">
+        <div className="rounded-3xl bg-[#F2B13E] p-8 md:p-10">
           <h2 className="text-2xl font-extrabold tracking-[-0.05em] text-[#403F43]">문의 채널 준비 중</h2>
           <p className="mt-4 leading-8 text-[#403F43]/80">
             개인정보 수집 항목, 수신 담당자, 회신 절차가 확정된 뒤 안전한 문의 폼 또는 공식 이메일을 연결합니다.

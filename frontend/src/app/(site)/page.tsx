@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <>
       <section className="overflow-hidden bg-[#F2B13E]">
-        <div className="mx-auto grid max-w-7xl items-end px-5 py-16 sm:py-24 lg:grid-cols-[1.3fr_0.7fr] lg:px-8">
+        <div className="mx-auto grid max-w-7xl items-end px-5 py-16 md:py-24 lg:grid-cols-[1.3fr_0.7fr] lg:px-8">
           <div className="pb-2">
             <p className="text-sm md:text-base font-bold tracking-[0.16em] text-[#403F43]/70">YEOON & COMPANY</p>
             <h1 className="mt-6 max-w-4xl text-5xl font-extrabold leading-[1.08] tracking-[-0.075em] text-[#403F43] md:text-6xl lg:text-7xl">
@@ -20,7 +20,7 @@ export default function HomePage() {
               하루가 되도록
             </h1>
             <p className="mt-8 max-w-xl text-base leading-8 text-[#403F43]/85 md:text-lg">
-              여온앤컴퍼니는 누구나 안전한 일상을 만들고,
+              여온앤컴퍼니는 누구나 안전한 일상을 만들고
               <br />
               스스로 선택할 수 있도록 돕는 기술을 만듭니다.
             </p>
@@ -49,11 +49,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-24">
+      <section className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-5 lg:px-8">
           <p className="text-sm md:text-base font-bold tracking-[0.16em] text-[#B87810]">OUR WHY</p>
-          <h2 className="mt-5 max-w-4xl text-3xl font-extrabold leading-tight tracking-[-0.06em] text-[#403F43] sm:text-5xl">
-            자립은 혼자 남겨두는 일이 아니라&nbsp;
+          <h2 className="mt-5 max-w-4xl text-3xl font-extrabold leading-tight tracking-[-0.06em] text-[#403F43] md:text-5xl">
+            자립은 혼자 남겨두는 일이&nbsp;
+            <br className="md:hidden" />
+            아니라&nbsp;
             <br className="hidden md:block" />
             스스로 선택할 수&nbsp;
             <br className="md:hidden" />
@@ -62,12 +64,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-[#F2F1EF] py-16 sm:py-24">
+      <section className="bg-[#F2F1EF] py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-5 lg:px-8">
           <div className="flex items-end justify-between gap-6">
             <div>
               <p className="text-sm md:text-base font-bold tracking-[0.16em] text-[#B87810]">SOLUTIONS</p>
-              <h2 className="mt-4 text-3xl font-extrabold tracking-[-0.06em] text-[#403F43] sm:text-4xl">
+              <h2 className="mt-4 text-3xl font-extrabold tracking-[-0.06em] text-[#403F43] md:text-4xl">
                 자립을 위한 두 가지 기술
               </h2>
             </div>
@@ -79,7 +81,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="mt-10 grid gap-5 lg:grid-cols-2">
-            <article className="rounded-3xl bg-white p-8 sm:p-10">
+            <article className="rounded-3xl bg-white p-8 md:p-10">
               <p className="text-sm md:text-base font-bold text-[#B87810]">운영 중</p>
               <h3 className="mt-2 text-3xl font-extrabold tracking-[-0.06em] text-[#403F43]">보통의 하루</h3>
               <p className="mt-2 max-w-md leading-7 text-[#626064]">
@@ -90,7 +92,7 @@ export default function HomePage() {
                 스스로 이어갈 수 있도록 돕습니다.
               </p>
             </article>
-            <article className="rounded-3xl bg-[#403F43] p-8 text-white sm:p-10">
+            <article className="rounded-3xl bg-[#403F43] p-8 text-white md:p-10">
               <p className="text-sm md:text-base font-bold text-[#F2B13E]">개발·검증 추진 중</p>
               <h3 className="mt-2 text-3xl font-extrabold tracking-[-0.06em]">소비·자산보호 플랫폼</h3>
               <p className="mt-2 max-w-md leading-7 text-white/70">
@@ -103,7 +105,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-24">
+      <section className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-5 lg:px-8">
           <p className="text-sm md:text-base font-bold tracking-[0.16em] text-[#B87810]">PRINCIPLES</p>
           <div className="mt-8 grid gap-4 lg:grid-cols-3">
@@ -118,7 +120,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-[#FFF9EE] py-16 sm:py-24">
+      <section className="bg-[#FFF9EE] py-16 md:py-24">
         <div className="mx-auto max-w-5xl px-5 text-center lg:px-8">
           <p className="text-sm md:text-base font-bold tracking-[0.16em] text-[#B87810]">PARTNERSHIP</p>
           <h2 className="mt-5 text-3xl font-extrabold leading-tight tracking-[-0.06em] text-[#403F43] md:text-5xl">

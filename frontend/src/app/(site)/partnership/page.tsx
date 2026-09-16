@@ -9,9 +9,9 @@ const partnerGroups = [
     title: '복지·공공기관',
     description: (
       <>
-        현장의 일상과 지원 체계를 이해하며,&nbsp;
-        <br className="md:hidden" />
-        실제 삶에 닿을 수 있도록 함께 고민합니다.
+        현장의 일상과 지원을 이해하며&nbsp;
+        <br />
+        실제 삶에 닿도록 고민합니다.
       </>
     ),
   },
@@ -19,8 +19,8 @@ const partnerGroups = [
     title: '금융·카드·신탁 파트너',
     description: (
       <>
-        안전한 소비와 자산 관리에 필요한&nbsp;
-        <br className="md:hidden" />
+        안전한 소비와 자산 관리를 위한&nbsp;
+        <br />
         기준과 구조를 함께 설계합니다.
       </>
     ),
@@ -29,8 +29,8 @@ const partnerGroups = [
     title: '당사자·보호자 단체',
     description: (
       <>
-        당사자와 가족의 경험을 듣고,&nbsp;
-        <br className="md:hidden" />더 이해할 수 있도록 발전시킵니다.
+        당사자와 가족의 경험을 듣고&nbsp;
+        <br />더 이해할 수 있도록 발전합니다.
       </>
     ),
   },
@@ -59,7 +59,7 @@ export default function PartnershipPage() {
         }
       />
       <section className="mx-auto max-w-5xl px-5 py-20 lg:px-8">
-        <div className="grid gap-5 sm:grid-cols-3">
+        <div className="grid gap-5 md:grid-cols-3">
           {partnerGroups.map(partner => (
             <article key={partner.title} className="rounded-2xl bg-[#F2F1EF] p-6">
               <h2 className="text-xl font-extrabold tracking-[-0.04em] text-[#403F43]">{partner.title}</h2>

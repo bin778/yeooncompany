@@ -8,7 +8,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-6 py-8 lg:px-12">
         <p className="text-lg font-extrabold tracking-[-0.04em]">{siteConfig.name}</p>
         <p className="mt-3 text-sm leading-6 text-white/70">
-          일상에서 도움이 필요한 사람들이 스스로 &nbsp;
+          일상에서 도움이 필요한 사람들이 스스로&nbsp;
           <br className="md:hidden" />
           선택할 수 있도록 돕는 디지털 서비스를 만듭니다.
         </p>

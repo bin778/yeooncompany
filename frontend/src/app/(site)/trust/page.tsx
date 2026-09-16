@@ -25,7 +25,7 @@ export default function TrustPage() {
           <>
             여온앤컴퍼니는 기능을 늘리는 것보다&nbsp;
             <br />
-            이용자의 선택과 존엄을
+            이용자의 선택과 존엄을&nbsp;
             <br className="md:hidden" />
             지키는 방법을 먼저 고민합니다.
           </>
